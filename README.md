@@ -10,7 +10,7 @@ Currently supports the following instructions:
 
 >SHIFTS: srl, srli,sll,slli
 
->MEMORY: ld, sd 
+>MEMORY: ld, sd, li
 
 >BRANCHES: beq, bne, blt, bge 
 
