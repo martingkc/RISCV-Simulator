@@ -4,15 +4,15 @@ https://martingkc-riscv-simulator-main-1qi3e0.streamlit.app/
 
 Currently supports the following instructions: 
 
-#ARITHMETICS: add, addi, sub
+>ARITHMETICS: add, addi, sub
 
-#LOGICAL: and, andi, or, ori, xor, xori
+>LOGICAL: and, andi, or, ori, xor, xori
 
-#SHIFTS: srl, srli,sll,slli
+>SHIFTS: srl, srli,sll,slli
 
-#MEMORY: ld, sd 
+>MEMORY: ld, sd 
 
-#BRANCHES: beq, bne, blt, bge 
+>BRANCHES: beq, bne, blt, bge 
 
 if you want to run it in your pc: 
-#pip install streamlit
+>pip install streamlit
