@@ -364,9 +364,13 @@ with st.form("Resgisters", clear_on_submit=False):
     df = df.T
     df.columns = ['Decimal']
     dfv =  conv()
-    
+    col1, col2 =st.columns(2, gap='medium')
     dfv.index = df.index
     df = pd.concat([df, dfv], axis=1)
     print(df)
-    st.write(df)
+    with col1: 
+        st.table(df.iloc[:16])
+
+    with col2: 
+        st.table(df.iloc[16:])
     submit = st.form_submit_button("update") 
