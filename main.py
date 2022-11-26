@@ -139,7 +139,7 @@ def XOR(dest, s1, s2):
     else:  
         s2 = s2.rjust(len1, '0')
 
-    for i in range(max(s1, s2)): 
+    for i in range(max(registers[s1], registers[s2])): 
         if((s1[i]=='1'and s2[i]=='0')or(s1[i]=='0'and s2[i]=='1')): 
             res += '1'
         else: 
